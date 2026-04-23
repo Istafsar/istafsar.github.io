@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.istafsar.qna",
+      "sha256_cert_fingerprints": [
+        "73:15:B5:70:AD:DF:84:15:C5:DB:F5:20:D2:D5:34:F4:A8:4E:C6:C2:EF:D1:48:44:06:93:77:A8:17:70:C1:90",
+        "A5:AA:CE:5B:98:3F:13:66:68:C3:03:C9:95:64:C4:93:91:51:68:D9:33:EC:A1:9C:96:E4:A7:84:C3:90:A5:D0"
+      ]
+    }
+  }
+]
