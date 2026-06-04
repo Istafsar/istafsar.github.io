@@ -1,5 +1,11 @@
 <!DOCTYPE html><html  lang="en"><head><title data-rh="true"></title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Istafsar – Islamic Q&amp;A Platform</title><meta name="description" content="Istafsar is a trusted Islamic Q&amp;A platform connecting seekers with verified Shia scholars for authentic religious guidance and learning."/><link rel="manifest" href="/manifest.json"/><style id="expo-reset">#root,body,html{height:100%}body{overflow:hidden}#root{display:flex}</style><script>
-if ('serviceWorker' in navigator) {
+if (
+  'serviceWorker' in navigator &&
+  !(
+  window.location.hostname === 'localhost' ||
+  window.location.hostname === '127.0.0.1'
+)
+) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js').then(registration => {
             console.log('Service Worker registered with scope:', registration.scope);
@@ -8,7 +14,7 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
-</script><style id="react-native-stylesheet">[stylesheet-group="0"]{}
+</script><style id="react-native-stylesheet">@layer rnw { [stylesheet-group="0"]{}
 body{margin:0;}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
@@ -18,7 +24,7 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .css-146c3p1{background-color:rgba(0,0,0,0.00);border:0 solid black;box-sizing:border-box;color:rgba(0,0,0,1.00);display:inline;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;list-style:none;margin:0px;padding:0px;position:relative;text-align:start;text-decoration:none;white-space:pre-wrap;word-wrap:break-word;}
 .css-1jxf684{background-color:rgba(0,0,0,0.00);border:0 solid black;box-sizing:border-box;color:inherit;display:inline;font:inherit;list-style:none;margin:0px;padding:0px;position:relative;text-align:inherit;text-decoration:none;white-space:inherit;word-wrap:break-word;}
 .css-9pa8cd{bottom:0px;height:100%;left:0px;opacity:0;position:absolute;right:0px;top:0px;width:100%;z-index:-1;}
-.css-g5y9jx{align-content:flex-start;align-items:stretch;background-color:rgba(0,0,0,0.00);border:0 solid black;box-sizing:border-box;display:flex;flex-basis:auto;flex-direction:column;flex-shrink:0;list-style:none;margin:0px;min-height:0px;min-width:0px;padding:0px;position:relative;text-decoration:none;z-index:0;}
+.css-g5y9jx{align-content:flex-start;align-items:stretch;background-color:rgba(0,0,0,0.00);border:0 solid black;box-sizing:border-box;display:flex;flex-basis:auto;flex-direction:column;flex-shrink:0;list-style:none;margin:0px;min-height:0px;min-width:0px;padding:0px;position:relative;text-decoration:none;z-index:0;} }
 [stylesheet-group="2"]{}
 .r-1064s9p{margin:4px;}
 .r-11mg6pl{border-bottom-color:rgba(255,255,255,1.00);border-left-color:rgba(255,255,255,1.00);border-right-color:rgba(255,255,255,1.00);border-top-color:rgba(255,255,255,1.00);}
@@ -509,5 +515,8 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 @keyframes r-1pzkwqh{0%{transform:translateY(100%);}100%{transform:translateY(0%);}}
 @keyframes r-imtty0{0%{opacity:0;}100%{opacity:1;}}
 @keyframes r-q67da2{0%{transform:translateX(-100%);}100%{transform:translateX(400%);}}
-@keyframes r-t2lo5v{0%{opacity:1;}100%{opacity:0;}}</style><script type="module">globalThis.__EXPO_ROUTER_HYDRATE__=true;</script><link rel="preload" href="/_expo/static/css/styles-b638dc22b58eaccc3205e30b59704b42.css" as="style"><link rel="stylesheet" href="/_expo/static/css/styles-b638dc22b58eaccc3205e30b59704b42.css"><link rel="preload" href="/_expo/static/css/quill.snow-b39d36890a67d0b7e7da9bcb54ddf37b.css" as="style"><link rel="stylesheet" href="/_expo/static/css/quill.snow-b39d36890a67d0b7e7da9bcb54ddf37b.css"><link rel="preload" href="/_expo/static/css/global-2784198650bfb5245df92985d517ef5c.css" as="style"><link rel="stylesheet" href="/_expo/static/css/global-2784198650bfb5245df92985d517ef5c.css"><link rel="icon" href="/favicon.ico" /></head><body><div id="root"><div class="css-g5y9jx r-13awgt0"><!--$--><!--/$--></div></div><script src="/_expo/static/js/web/index-f4148d33a74790beeb1af6ec6268d142.js" defer></script>
+@keyframes r-t2lo5v{0%{opacity:1;}100%{opacity:0;}}</style><script type="module">globalThis.__EXPO_ROUTER_HYDRATE__=true;</script><link rel="preload" href="/_expo/static/css/styles-a8882cfc4b394b2d63b3fff38ed5b7fa.css" as="style">
+<link rel="stylesheet" href="/_expo/static/css/styles-a8882cfc4b394b2d63b3fff38ed5b7fa.css"><link rel="preload" href="/_expo/static/css/quill.snow-85ef5ed4fe2f0053114df1c6968444ba.css" as="style">
+<link rel="stylesheet" href="/_expo/static/css/quill.snow-85ef5ed4fe2f0053114df1c6968444ba.css"><link rel="preload" href="/_expo/static/css/global-d68bfe43b974c0e11a68eca1a346a2c7.css" as="style">
+<link rel="stylesheet" href="/_expo/static/css/global-d68bfe43b974c0e11a68eca1a346a2c7.css"><link rel="icon" href="/favicon.ico" /></head><body><div id="root"><div class="css-g5y9jx r-13awgt0"><!--$--><!--/$--></div></div><script src="/_expo/static/js/web/index-e117cb36064da42dea85bdd18c0624de.js" defer></script>
 </body></html>
